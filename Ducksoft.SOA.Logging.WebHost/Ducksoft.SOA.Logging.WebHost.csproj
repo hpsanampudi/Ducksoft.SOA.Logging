@@ -41,8 +41,16 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Ducksoft.SOA.BL.Logging, Version=1.0.0.1, Culture=neutral, PublicKeyToken=845c76bf1f93b52a, processorArchitecture=MSIL">
+      <HintPath>..\packages\Ducksoft.SOA.BL.Logging.1.0.0.1\lib\net461\Ducksoft.SOA.BL.Logging.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="Ducksoft.SOA.Common, Version=3.0.0.5, Culture=neutral, PublicKeyToken=b021288588aff63b, processorArchitecture=MSIL">
       <HintPath>..\packages\Ducksoft.SOA.Common.3.0.0.5\lib\net461\Ducksoft.SOA.Common.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="log4net, Version=2.0.8.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a, processorArchitecture=MSIL">
+      <HintPath>..\packages\log4net.2.0.8\lib\net45-full\log4net.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="Microsoft.CSharp" />
@@ -105,12 +113,6 @@
     <None Include="Web.Release.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\Ducksoft.SOA.BL.Logging\Ducksoft.SOA.BL.Logging.csproj">
-      <Project>{0188ef4b-f1cc-422f-9b3a-a1a2ba1b2d01}</Project>
-      <Name>Ducksoft.SOA.BL.Logging</Name>
-    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
