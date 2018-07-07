@@ -91,14 +91,14 @@
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
-    <Content Include="Properties\AssemblyInfo.tt">
+    <None Include="Properties\AssemblyInfo.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
       <LastGenOutput>AssemblyInfo.cs</LastGenOutput>
-    </Content>
-    <Content Include="Properties\Ducksoft.SOA.BL.Logging.nuspec.tt">
+    </None>
+    <None Include="Properties\Ducksoft.SOA.BL.Logging.nuspec.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
       <LastGenOutput>Ducksoft.SOA.BL.Logging.nuspec.nuspec</LastGenOutput>
-    </Content>
+    </None>
     <None Include="_CreateNewNuGetPackage\DoNotModify\NuGet.exe" />
   </ItemGroup>
   <ItemGroup>

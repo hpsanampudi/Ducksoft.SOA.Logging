@@ -29,7 +29,7 @@
     <authors>hpsanampudi</authors>
     <owners>Duck Software Limited</owners>
     <licenseUrl>https://github.com/hpsanampudi/Ducksoft.SOA.<#=appName#>/blob/master/LICENSE</licenseUrl>
-    <projectUrl>https://github.com/hpsanampudi/Ducksoft.SOA.BL.<#=appName#></projectUrl>
+    <projectUrl>https://github.com/hpsanampudi/Ducksoft.SOA.<#=appName#></projectUrl>
     <iconUrl>https://www.gravatar.com/avatar/c66699de02a373b3835f8fe83d294328</iconUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
     <description>WCF <#=appName#> serice library used across SOA application.</description>
