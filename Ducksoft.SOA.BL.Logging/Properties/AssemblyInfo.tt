@@ -47,7 +47,7 @@ using System.Runtime.InteropServices;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly: AssemblyTitle("Ducksoft.SOA.BL.<#=appName#>")]
-[assembly: AssemblyDescription("WCF <#=appName#> service used across SOA application.")]
+[assembly: AssemblyDescription("WCF <#=appName#> service library used across SOA application.")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Duck Software Limited")]
 [assembly: AssemblyProduct("Ducksoft.SOA.BL.<#=appName#>")]

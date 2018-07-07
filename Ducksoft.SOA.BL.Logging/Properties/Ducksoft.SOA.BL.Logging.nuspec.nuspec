@@ -2,15 +2,15 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2011/10/nuspec.xsd">
   <metadata minClientVersion="2.8">
     <id>Ducksoft.SOA.BL.Logging</id>
-    <version>2.0.0.1</version>
+    <version>1.0.0.1</version>
     <title>Ducksoft.SOA.BL.Logging</title>
     <authors>hpsanampudi</authors>
     <owners>Duck Software Limited</owners>
-    <licenseUrl>https://github.com/hpsanampudi/Ducksoft.SOA.BL.Logging/blob/master/LICENSE</licenseUrl>
+    <licenseUrl>https://github.com/hpsanampudi/Ducksoft.SOA.Logging/blob/master/LICENSE</licenseUrl>
     <projectUrl>https://github.com/hpsanampudi/Ducksoft.SOA.BL.Logging</projectUrl>
     <iconUrl>https://www.gravatar.com/avatar/c66699de02a373b3835f8fe83d294328</iconUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
-    <description>WCF Logging used across SOA application.</description>
+    <description>WCF Logging serice library used across SOA application.</description>
     <copyright>Copyright © Duck Software Limited 2018</copyright>
     <developmentDependency>true</developmentDependency>
     <tags>Ducksoft SOA BL Logging</tags>

@@ -5,7 +5,7 @@ using System.Runtime.InteropServices;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly: AssemblyTitle("Ducksoft.SOA.BL.Logging")]
-[assembly: AssemblyDescription("WCF Logging service used across SOA application.")]
+[assembly: AssemblyDescription("WCF Logging service library used across SOA application.")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Duck Software Limited")]
 [assembly: AssemblyProduct("Ducksoft.SOA.BL.Logging")]
@@ -28,6 +28,6 @@ using System.Runtime.InteropServices;
 //      Build Number - MonthDate
 //      Revision - HoursMinutes
 //
-[assembly: AssemblyVersion("2.0.0.1")]
-[assembly: AssemblyFileVersion("2.0.0.1")]
+[assembly: AssemblyVersion("1.0.0.0")]
+[assembly: AssemblyFileVersion("1.0.0.0")]
 

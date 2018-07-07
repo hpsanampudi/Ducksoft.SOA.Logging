@@ -28,18 +28,18 @@
     <title>Ducksoft.SOA.BL.<#=appName#></title>
     <authors>hpsanampudi</authors>
     <owners>Duck Software Limited</owners>
-    <licenseUrl>https://github.com/hpsanampudi/Ducksoft.SOA.BL.<#=appName#>/blob/master/LICENSE</licenseUrl>
+    <licenseUrl>https://github.com/hpsanampudi/Ducksoft.SOA.<#=appName#>/blob/master/LICENSE</licenseUrl>
     <projectUrl>https://github.com/hpsanampudi/Ducksoft.SOA.BL.<#=appName#></projectUrl>
     <iconUrl>https://www.gravatar.com/avatar/c66699de02a373b3835f8fe83d294328</iconUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
-    <description>WCF <#=appName#> used across SOA application.</description>
+    <description>WCF <#=appName#> serice library used across SOA application.</description>
     <copyright>Copyright © Duck Software Limited <#=DateTime.Now.Year#></copyright>
     <developmentDependency>true</developmentDependency>
     <tags>Ducksoft SOA BL <#=appName#></tags>
   </metadata>
 </package>
 <#+
-    int major = 3;
+    int major = 1;
     int minor = 0;
     int revision = 0;
     int build = 0;

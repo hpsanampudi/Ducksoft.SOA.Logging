@@ -77,14 +77,12 @@
     <None Include="App.config" />
     <None Include="App_Data\Log4Net_SOA.config" />
     <None Include="Ducksoft.SOA.BL.Logging.pfx" />
-    <None Include="LICENSE" />
     <None Include="packages.config" />
     <None Include="Properties\Ducksoft.SOA.BL.Logging.nuspec.nuspec">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>Ducksoft.SOA.BL.Logging.nuspec.tt</DependentUpon>
     </None>
-    <None Include="README.md" />
     <None Include="_CreateNewNuGetPackage\Config.ps1" />
     <None Include="_CreateNewNuGetPackage\DoNotModify\CreateNuGetPackage.ps1" />
     <None Include="_CreateNewNuGetPackage\DoNotModify\New-NuGetPackage.ps1" />
@@ -93,8 +91,6 @@
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
-    <Content Include=".gitattributes" />
-    <Content Include=".gitignore" />
     <Content Include="Properties\AssemblyInfo.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
       <LastGenOutput>AssemblyInfo.cs</LastGenOutput>
