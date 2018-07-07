@@ -1,0 +1,2 @@
+﻿<%@ ServiceHost Language="C#" Debug="true" Service="Ducksoft.SOA.BL.Logging.Services.LoggingService" 
+    CodeBehind="LoggingService.svc.cs" Factory="Ninject.Extensions.Wcf.NinjectServiceHostFactory"%>
